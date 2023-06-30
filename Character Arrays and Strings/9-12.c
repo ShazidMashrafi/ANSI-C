@@ -16,6 +16,6 @@ int main()
         count++;
         ptr=strstr(ptr+1,substr);
     }
-    printf("The number of occurences of substring \"%s\" in the line of text \"%s\" is %d",substr,str,count);
+    printf("The number of occurences of substring \"%s\" in the line of text \"%s\" is %d\n",substr,str,count);
     return 0;
 }
